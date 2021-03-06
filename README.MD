@@ -1,5 +1,5 @@
-#I NEED A GAME NAME!!!!!!!!!!
+I NEED A GAME NAME!!!!!!!!!!
 =============================
-###HELP MEEE
+HELP MEEE
 ------------
 plz comment a game name
