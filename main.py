@@ -1,4 +1,5 @@
 from time import sleep as slp
+from os import system as stm
 import os
 import random
 import sys
@@ -12,6 +13,7 @@ import time
 # username
 # credits
 # backstoryp1 to p8
+# BS1 To BS8
 # backstory_yn
 # loadingtime
 # LTfloat
@@ -64,6 +66,14 @@ backstoryp5 = '''Work In Progress'''
 backstoryp6 = '''Work In Progress'''
 backstoryp7 = '''Work In Progress'''
 backstoryp8 = '''Work In Progress'''
+BS1 = int(0)
+BS2 = int(0)
+BS3 = int(0)
+BS4 = int(0)
+BS5 = int(0)
+BS6 = int(0)
+BS7 = int(0)
+BS8 = int(0)
 
 
 loadingtime = random.randint(1, 4)
@@ -113,6 +123,7 @@ How To Play
 
 
 	if startmenuinput.lower() == "leave":
+		break
 		os._exit
 	elif startmenuinput.lower() ==	"credits":
 		slowtype(credits)
@@ -153,8 +164,99 @@ No
 backstory_yn = input(typehere)
 
 if backstory_yn.lower() == "yes" :
-	kindaslowtype(backstoryp1)
+	BS1 += 1
 elif backstory_yn.lower() == "no" :
 	pass
 else :
 	print(inval)
+
+if BS1 == 1 :
+	os.stm("clear")
+	kindaslowtype(backstoryp1)
+else :
+	pass
+
+if input("") == """
+""" :
+	BS2 += 1
+else :
+	pass
+
+if BS2 == 1 :
+	os.stm("clear")
+	kindaslowtype(backstoryp2)
+else :
+	pass
+
+if input("")  == """
+""" :
+	BS3 += 1
+else :
+	pass
+
+if BS3 == 1 :
+	os.stm("clear")
+	kindaslowtype(backstoryp3)
+else :
+	pass
+
+if input("")  == """
+""" :
+	BS4 += 1
+else :
+	pass
+
+if BS4 == 1 :
+	os.stm("clear")
+	kindaslowtype(backstoryp4)
+else :
+	pass
+
+if input("")  == """
+""" :
+	BS5 += 1
+else :
+	pass
+
+if BS5 == 1 :
+	os.stm("clear")
+	kindaslowtype(backstoryp5)
+else :
+	pass
+
+if input("")  == """
+""" :
+	BS6 += 1
+else :
+	pass
+
+if BS6 == 1 :
+	os.stm("clear")
+	kindaslowtype(backstoryp6)
+else :
+	pass
+
+if input("")  == """
+""" :
+	BS7 += 1
+else :
+	pass
+
+if BS7 == 1 :
+	os.stm("clear")
+	kindaslowtype(backstoryp7)
+else :
+	pass
+
+if input("")  == """
+""" :
+	BS8 += 1
+else :
+	pass
+
+if BS8 == 1 :
+	os.stm("clear")
+	kindaslowtype(backstoryp8)
+else :
+	pass
+
